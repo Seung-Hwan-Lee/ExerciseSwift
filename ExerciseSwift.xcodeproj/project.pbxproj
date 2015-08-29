@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9B8FD571B8FCF9700724C17 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8FD561B8FCF9700724C17 /* BasicViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		E9D8FB3F1B8B5CAB005419D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D8FB3E1B8B5CAB005419D7 /* AppDelegate.swift */; };
 		E9D8FB411B8B5CAB005419D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D8FB401B8B5CAB005419D7 /* ViewController.swift */; };
 		E9D8FB441B8B5CAB005419D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D8FB421B8B5CAB005419D7 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E9B8FD561B8FCF9700724C17 /* BasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
 		E9D8FB3B1B8B5CAB005419D7 /* ExerciseSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExerciseSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D8FB3E1B8B5CAB005419D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9D8FB401B8B5CAB005419D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				E9D8FB451B8B5CAB005419D7 /* ExerciseSwift.xcdatamodeld */,
 				E9D8FB6F1B8B5D1D005419D7 /* TableViewController.swift */,
 				E9D8FB711B8B6033005419D7 /* ArrayViewController.swift */,
+				E9B8FD561B8FCF9700724C17 /* BasicViewController.swift */,
 			);
 			path = ExerciseSwift;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9D8FB721B8B6033005419D7 /* ArrayViewController.swift in Sources */,
+				E9B8FD571B8FCF9700724C17 /* BasicViewController.swift in Sources */,
 				E9D8FB411B8B5CAB005419D7 /* ViewController.swift in Sources */,
 				E9D8FB471B8B5CAB005419D7 /* ExerciseSwift.xcdatamodeld in Sources */,
 				E9D8FB3F1B8B5CAB005419D7 /* AppDelegate.swift in Sources */,
@@ -495,6 +499,7 @@
 				E9D8FB681B8B5CAB005419D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9D8FB691B8B5CAB005419D7 /* Build configuration list for PBXNativeTarget "ExerciseSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +508,7 @@
 				E9D8FB6B1B8B5CAB005419D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9D8FB6C1B8B5CAB005419D7 /* Build configuration list for PBXNativeTarget "ExerciseSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +517,7 @@
 				E9D8FB6E1B8B5CAB005419D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

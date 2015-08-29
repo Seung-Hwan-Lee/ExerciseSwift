@@ -12,6 +12,12 @@ class ArrayViewController: UIViewController {
     
     override func viewDidLoad() {
         self.view.backgroundColor = UIColor.whiteColor()
+        
+        let array = ["1", "2"]
+        let dictionary = ["1" : "a", "2" : "b"]
+        
+        NSLog("array : %@", array)
+        NSLog("dictionary : %@", dictionary)
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -23,5 +29,9 @@ class ArrayViewController: UIViewController {
         alertViewCtrl.addAction(alertAction)
         
         self.presentViewController(alertViewCtrl, animated: true, completion: nil)
+        
+        dispatch_async(dispatch_get_main_queue()) { () -> Void in
+            NSLog("%s", __FUNCTION__)
+        }
     }
 }
