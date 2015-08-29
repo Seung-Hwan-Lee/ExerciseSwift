@@ -1,0 +1,21 @@
+view controller class를 array에 넣어두고 꺼내서 init 해서 사용하려는데 실패.
+
+Declaring constants and variables
+declare multiple constant or variables on single line
+type annotation
+declare multiple constant or variables on single line with type annoation
+Integer type range swift provided.
+Integer Bound!
+Floating Point Number Types
+Numeric Literals (binary, octal, hexadecimal, decimal)
+Numeric literals can contain extra formatting to make them easier to read
+Integer Conversion
+Integer and Floating-Point Conversion
+Type Aliases
+Booleans
+Tuple
+ - make a tuple
+ - decompose a tuple’s contents into separate constants or variables
+ - If you only need some of the tuple’s values, ignore parts of the tuple
+ - access the individual element values in a tuple using index numbers
+ - name the individual elements in a tuple when the tuple is defined
