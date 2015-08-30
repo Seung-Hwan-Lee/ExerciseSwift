@@ -1,0 +1,40 @@
+String Literals
+
+Initializing an Empty String.
+
+String Mutability
+
+Which type is String?
+
+Working with Characters
+ - loop each characters
+ - decompose characters
+ - compose string from characters
+ 
+Concatenating Strings and Characters
+
+String Interpolation
+
+Counting Characters
+
+Accessing and Modifying a String
+
+ - String Indices
+ - start index
+ - end index
+ - access last character of string
+ - access second character of string
+ - 기준점을 기준으로 6 index 이동.
+ - string character indices
+
+ - insert string in string
+ - insert characters in string
+ - remove last character
+ - get range
+ - remove range
+
+Comparing Strings
+
+ - String and Character Equality
+ - Prefix and Suffix Equality
+ 

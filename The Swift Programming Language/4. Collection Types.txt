@@ -1,0 +1,123 @@
+three primary collection types
+
+Mutability of Collections
+
+Arrays
+
+ - Array Type Shorthand Syntax
+
+ - Creating an Empty Array
+
+   > create an empty array of a certain type using initializer syntax
+
+   > you can create an empty array with an empty array literal
+
+ - Creating an Array with a Default Value
+
+ - Creating an Array by Adding Two Arrays Together
+
+ - Creating an Array with an Array Literal
+
+ - Accessing and Modifying an Array
+
+   > To find out the number of items in an array
+
+   > checking whether the count property is equal to 0
+
+   > add a new item to the end of an array
+
+   > append an array with the addition assignment operator
+
+   > Retrieve a value from the array by using subscript syntax
+
+   > You can use subscript syntax to change an existing value
+
+   > You can also use subscript syntax to change a range of values at once
+
+   > you remove an item from the array
+
+   > remove the final item from an array
+
+ - Iterating Over an Array
+
+   > for in
+
+   > If you need the integer index of each item as well as its value, use the enumerate() method
+
+
+Sets
+
+ - Hash Values for Set Types
+
+ - Set Type Syntax
+
+ - Creating and Initializing an Empty Set
+
+   > create an empty set of a certain type using initializer syntax
+
+   > create an empty set with an empty array literal
+
+ - Creating a Set with an Array Literal
+
+ - Accessing and Modifying a Set
+
+   > find out the number of items in a set
+
+   > checking whether the count property is equal to 0
+
+   > add a new item into a set by calling the set’s ? method
+
+   > remove an item from a set by calling ? method
+
+   > check whether a set contains a particular item
+
+ - Iterating Over a Set
+
+   > for in
+
+   > iterate over the values of a set in a specific order
+
+
+Performing Set Operations
+
+ - Fundamental Set Operations - 4 methods
+
+ - Set Membership and Equality - 6 methods
+
+
+Dictionaries
+
+ - Dictionary Type Shorthand Syntax
+
+ - Creating an Empty Dictionary
+
+   > create an empty dictionary with an empty dictionary literal
+
+ - Creating a Dictionary with a Dictionary Literal
+
+ - Accessing and Modifying a Dictionary
+
+   > find out the number of items in a Dictionary
+
+   > checking whether the count property is equal to 0
+
+   > add a new item to a dictionary with subscript syntax
+
+   > use subscript syntax to change the value associated with a particular key
+
+   > use a dictionary’s updateValue(_:forKey:) method to set or update the value for a particular key
+
+   > use subscript syntax to remove a key-value pair from a dictionary
+
+   > Alternatively, remove a key-value pair from a dictionary with the removeValueForKey(_:) method
+
+ - Iterating Over a Dictionary
+
+   > for in
+
+   > iterable collection of a dictionary’s keys
+
+   > iterable collection of a dictionary’s values
+
+   > initialize a new array with the keys or values property
+

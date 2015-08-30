@@ -16,6 +16,7 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         print(self.tableView)
         self.tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "id")
+
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
