@@ -1,0 +1,28 @@
+For Loops
+
+ - two kinds of loop
+
+   * for in
+
+     > you can ignore the values by using an underscore
+
+     > array
+
+     > dictionary
+
+   * for
+
+While Loops
+
+ - two kinds of while
+
+Conditional Statements
+
+ - if
+ - switch
+   > No Implicit Fallthrough
+   > multiple matches
+   > interval matching
+   > tuple
+   > value binding
+   > where
